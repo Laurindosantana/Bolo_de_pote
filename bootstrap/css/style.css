@@ -1,0 +1,573 @@
+@import url('https://fonts.googleapis.com/css2?family=Rochester&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+  }
+.font-rochester{
+  font-family: rochester;
+  font-weight:100px !important;
+
+}
+body{
+  background-color: #faf0ca;
+}
+html {
+    scroll-behavior: smooth;
+  }
+
+  .sessao1{
+    height: 112vh !important;
+    background-color:rgb(250,240,202) ;
+  }
+  .sessao2{
+    background-color: rgb(113,81,59);
+    height: 110vh;
+  }
+  .sessao3{
+    height: 140vh !important;
+    background-color: rgb(191,49,50);
+  }
+  .section4{
+    background-color: rgb(255,255,255);
+  }
+  .section5{
+    background-color: rgb(113,81,59);
+    height: 140vh;
+  }
+  .section6{
+    background-color: #FAF0CA;
+    
+  }
+  .section7{
+    background-color: rgb(250,240,202);
+    margin-bottom: 150px;
+  }
+  .footer{
+    background-color: rgb(255,255,255);
+  }
+
+  .wrapper-header{
+    display: flex;
+    justify-content: center;
+    flex: 1 1 500px;
+    }
+  
+  #logo1{
+    width: 300px;
+    height: 200px;
+  }
+  #logo2{
+    margin-left: 20px;
+    width: 300px;
+    height: 150px;
+  }
+  .logo1 img{
+    margin-top: 100px;
+    max-width: 100%;
+  }
+  .logo2 img{
+    margin-top: 150px !important;
+    max-width: 100%;
+    margin-left: 20px;  
+  }
+  .log-ifr-log{
+    padding-top: 50px;
+    
+  }
+     
+ .wrapper-itens{
+   max-width: 20rem;
+   padding-top: 20rem;
+ } 
+
+ .wrapper-descricao-header{
+   color: #7e6747;
+   padding-bottom: 1rem; 
+   max-width: 580px;
+   padding-top: 30px;
+   margin: 0 auto;
+   
+ }
+ .button{
+   font-family: rochester;
+   color: white;
+   z-index: 999999;
+   position: absolute;
+   display: block;
+   margin: 0 auto 0 auto ;
+   left: 0;
+   right: 0;
+   background-color: #BE1F32;
+   width: 29rem;
+   font-size: 40px;
+   height: 5rem;
+   border-radius: 30px;
+   border: none;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+   cursor: pointer;
+ }
+
+ .button:hover{
+   background-color: #ce1329;
+   font-size: 2.1rem;
+ }
+ .carousel-slide{
+   padding-top: 10px !important;
+ }
+ .d-block{
+   margin-top: 100px;
+   margin-left: auto !important;
+   margin-right: auto !important;
+    
+ }
+
+ .carousel-inner{
+   max-width: 400px;
+   margin: 5px auto 0 auto;
+ }
+ .informacao{
+   max-width: 600px;
+   margin: 20px auto 0 auto;
+ }
+ .titulo-section2{
+   color: #faf0ca;
+   margin: 30px;
+   font-size: 30px;
+ }
+ .sub-titulo-section2{
+   color: #faf0ca;
+   margin-top: 30px;
+   font-size: 20px;
+ }
+ .caixa-receitas{
+   margin-top: 30px;
+   width: 600px;
+   height: 50px;
+   background: #faf0ca;
+   margin-left: auto;
+   margin-right: auto;
+   border-radius: 10px;
+ }
+.receitas{
+   margin-top: 10px !important;
+   display: flex;
+   gap: 70px;
+   margin-left: 30px;
+   flex: 1 1 500px;
+
+ }
+.lista-receitas{
+   margin-top: 15px;
+   color: #7e6747;
+    
+ }
+ .h3-section2{
+   color: white;
+   margin-top: 30px;
+ }
+h4{
+  margin-left: 600px;
+  margin-top: 30px;
+  color: #faf0ca;
+  font-size: 30px;
+}
+.texto-sect3{
+  max-width: 600px;
+  margin-left: auto !important;
+  margin-right: auto !important;
+
+}
+.titulo-section3{
+  padding: 20px;
+  margin-left: 30px;
+  color: white;
+  
+
+}
+.sub-titulo-section3{
+  color: white;
+  
+}
+
+#imagBonus{
+  margin-top: 30px;
+  border-radius: 130px;
+  margin-left: 120px;
+}
+.caixaBonus{
+  max-width: 700px;
+  display: flex;
+  align-content: space-between;
+  margin: 0 auto 0 auto !important;
+  gap: 20px;
+  flex: 1 1 500px;
+}
+.desc{
+  color: white;
+  margin-top: 30px;
+
+}
+.e-book{
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  right: 400px;
+  
+}
+.tags{
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  right: 400px;
+}
+.suporte{
+  background-color: white;
+  border-radius: 10px;
+  width: 200px;
+  right: 400px;
+}
+.carts{
+  display: flex;
+  max-width: 700px;
+  margin-left: auto ;
+  margin-right: auto;
+  gap: 20px; 
+}
+p{
+  margin-left: 10px;
+}
+.botBonus{
+   
+  color: #71513b;
+  z-index: 999999;
+  position: absolute;
+  display: block;
+  margin: 30px auto 0 auto ;
+  left: 0;
+  right: 0;
+  background-color:#FAF0CA;
+  width: 29rem;
+  font-size: 40px;
+  height: 5rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+  cursor: pointer;
+}
+.botBonus:hover{
+  font-size: 45px;
+}
+.h1-certificado{
+  color: #FAF0CA;
+
+}
+.certificado{
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.img-cert{
+  max-width: 600px;
+  margin: 20px auto 0 auto;
+}
+.bt-certificado{
+  font-family: rochester;
+  color: #71513b;
+  z-index: 999999;
+  position: absolute;
+  display: block;
+  margin: 30px auto 0 auto ;
+  left: 0;
+  right: 0;
+  background-color:#FAF0CA;
+  width: 29rem;
+  font-size: 40px;
+  height: 5rem;
+  border-radius: 30px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+  cursor: pointer;
+}
+.bt-certificado:hover{
+  font-size: 45px;
+}
+
+.oferta-garantia{
+  padding-top: 30px !important;
+  display: flex;
+  max-width: 700px;
+  margin: 0 auto 0 auto;
+  flex: 1 1 500px;
+
+}
+.oferta{
+  margin-left: auto;
+  margin-right: auto;
+  background-color: white;
+  border-radius: 20px;
+  width: 300px;
+  height: 400px;
+}
+.h6-oferta{
+  margin-top: 80px;
+  color: #71513b;
+  
+}
+.h6-oferta h6{
+  margin-left: 90px;
+  margin-bottom: 30px;
+  
+}
+.h5-oferta h5{
+  margin-top: 20px;
+  margin-left: 44px;
+  font-size: 30px;
+  
+}
+.h5-oferta{
+  
+  height: 30px;
+  margin-top: 30px;
+  color:#BE1F32;
+  padding-top: 10px;
+}
+#preço{
+  font-size: 40px;
+  margin-left: 70px;
+}
+
+.selo-garantia{ 
+  border-radius: 20px;
+  background-color: #BE1F32;
+  font-size: 10px;
+  width: 300px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+.img-selo{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.p-garantia{
+  color: #FAF0CA;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-right: 20px !important;
+}
+.bt-gm-vaga{
+  font-family: rochester;
+  color: white;
+  display: block;
+  margin: 30px auto 0 auto ;
+  left: 0;
+  right: 0;
+  background-color: #BE1F32;
+  width: 200px !important;
+  height: 50px;
+  border-radius: 30px;
+  font-size: 22px;
+  border: none;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+  cursor: pointer;
+}
+a{
+  text-decoration: none;
+  
+}
+.bt-gm-vaga:hover{
+  font-size: 25px;
+}
+
+.biografia{
+  display: flex;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  flex: 1 1 500px;
+}
+.h5-bio{
+  margin-top: 30px;
+  margin-left:150px
+}
+.perg-freq{
+  padding-top: 20px;
+}
+
+.col-lg-6{
+  max-width: 600px;
+  gap: 100px;
+}
+.hidden{
+  padding: 20px;
+  
+}
+.buttonf{
+   font-family: rochester;
+   color: white;
+   position: absolute;
+   display: block;
+   margin: 0 auto 0 auto ;
+   left: 0;
+   right: 0;
+   background-color: #BE1F32;
+   width: 29rem;
+   font-size: 40px;
+   height: 5rem;
+   border-radius: 30px;
+   border: none;
+   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.89), 0 6px 20px 0 rgba(0, 0, 0, 0.788);
+   cursor: pointer;  
+}
+.buttonf:hover{
+  font-size: 45px;
+}
+.footer{
+  background-color:#faf0ca;
+  
+}
+.icones-footer{
+  gap: 30px; 
+  margin-left: auto;
+  margin-right: auto;
+}
+.footer-marg{
+  margin-top: 10px;
+}
+.creditos{
+  display: flex;
+  background-color: black;
+  color: white;
+  font-size: 10px;
+  height: 40px;
+}
+.creditos p{
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/*====== media ======*/
+
+@media (max-width:1000px){
+  
+  /* ===== section1=====*/
+  .sessao1{
+    height: 200vh !important;
+  }
+  .log-ifr-log{
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+    /* ===== section2=====*/
+  .sub-titulo-section2{
+    margin-left: 30px !important;
+    margin-right: 20px;
+  }
+  .titulo-section2{
+    margin-left: 100px !important;
+    margin-right: 20px;
+  }
+  .receitas{
+    display: block;
+  
+  }
+  .caixa-receitas{
+    margin-top: 10px !important;
+    margin-left: auto;
+    margin-right: auto;
+    width: 200px;
+    height: 180px;
+  }
+   
+  .sessao2{
+    height: 150vh;
+  }
+  .finex{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+  /* ===== section3=====*/
+  .caixaBonus{
+    display: block;
+  }
+  .titulo-section3{
+    margin-left: 60px;
+    margin-right: 60px;
+  }
+  .sub-titulo-section3{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .desc{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  .sessao3{
+    height: 250vh !important;
+  }
+  .carts{
+    display: block;
+  }
+  .e-book{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .tags{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .suporte{
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+   /* ===== section4=====*/
+  .biografia{
+    display: block;
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+  /* ===== section5=====*/
+  .certificado{
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+
+  #img-cert{
+  width: 200px !important;
+  height: 100px !important;
+  }
+  .oferta-garantia{
+    display: block;
+  }
+  .section5{
+    height: 150vh !important;
+  }
+  .oferta{
+    margin-top: 0 !important;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .selo-garantia{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* ===== section6=====*/
+  .section6{
+    height: 190vh;
+    padding-top: 20px !important;
+  }
+  .center{
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .creditos{
+    height: 40px;
+  }
+}
+  /*fim @media*/
